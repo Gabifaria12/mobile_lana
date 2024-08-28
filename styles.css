@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #c7a17a;
-	--background-color: #f9f5f0;
+	--primary-color: #aa0f0f;
+	--background-color: #000000;
 	--dark-color: #151515;
 }
 
@@ -72,7 +72,7 @@ html {
 
 .container-logo h1 a {
 	text-decoration: none;
-	color: #000;
+	color: #aa0f0f;
 	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: -1px;
@@ -161,7 +161,7 @@ html {
 	position: relative;
 	display: flex;
 	align-items: center;
-	border: 2px solid #fff;
+	border: 2px solid #ffffff;
 	border-radius: 2rem;
 	background-color: #fff;
 	height: 4.4rem;
@@ -319,7 +319,7 @@ html {
 
 .category-moca {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/moca-category.jpg');
+		url('img/posters.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -327,7 +327,7 @@ html {
 
 .category-capuchino {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/capuchino-category.jpg');
+		url('img/maquiagem.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -335,7 +335,7 @@ html {
 
 .category-expreso {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/expreso-category.jpg');
+		url('img/album3.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -636,7 +636,7 @@ html {
 }
 
 .button-group-blog span {
-	background-color: #fff;
+	background-color: #8f0606;
 	padding: 1rem;
 	border-radius: 50%;
 	transition: all 0.4s ease;
@@ -655,7 +655,7 @@ html {
 }
 
 .button-group-blog span:hover i {
-	color: #fff;
+	color: #ffffff;
 }
 
 .content-blog h3 {
@@ -673,7 +673,7 @@ html {
 .content-blog p {
 	margin-top: 1rem;
 	font-size: 1.4rem;
-	color: #777;
+	color: #ffffff;
 }
 
 .content-blog span {
@@ -746,7 +746,7 @@ html {
 .information ul li,
 .my-account ul li {
 	list-style: none;
-	color: #fff;
+	color: #ffffff;
 	font-size: 1.4rem;
 	font-weight: 300;
 }
